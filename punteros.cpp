@@ -26,7 +26,7 @@ int main () {
   cout << "Variable puntero: " << puntero << endl;
   // ATENCION, si el puntero no tiene valor dara
   // SEGMENTATION FAULT y la CAGAREMOS de gordo
-  // cout << "Variable puntero: " << *puntero << endl;
+  //cout << "Variable puntero: " << *puntero << endl;
   cout << "Direccion puntero: " << &puntero << endl << endl;
   puntero = &pruebaInt;
     cout << "Variable puntero: " << puntero << endl;
